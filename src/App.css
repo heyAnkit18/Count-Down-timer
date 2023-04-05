@@ -1,0 +1,39 @@
+#count-down-app {
+  border: 1px solid #f1c4c4;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#count-down-app h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+#current-time {
+  font-size: 4em;
+  margin-top: 20px;
+}
+
+
+
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+input[type='number'] {
+  padding: 10px;
+  font-size: 1.2em;
+  border: 1px solid #e43939;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+input[type='number']:focus {
+  outline: none;
+  border-color: #f0510c;
+  box-shadow: 0 0 5px rgba(220, 241, 96, 0.5);
+}
